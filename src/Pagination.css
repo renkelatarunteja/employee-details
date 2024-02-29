@@ -1,22 +1,29 @@
-.table-container {
+.table-header-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .table-header {
+    color: #333; /* Adjust the color as needed */
+  }
+  
+.pagination-container {
     margin: 20px;
   }
   
-  table {
+  .data-table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
-    table-layout: fixed;
   }
   
-  th, td {
+  .data-table th,
+  .data-table td {
     border: 1px solid #dddddd;
     padding: 8px;
     text-align: left;
-    word-wrap: break-word;
   }
   
-  th {
+  .data-table th {
     background-color: #f2f2f2;
   }
   
@@ -45,9 +52,11 @@
     cursor: not-allowed;
   }
   
-  .active {
-    font-weight: bold;
+  .active-box {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #00cc00; /* Green color */
+    color: #ffffff; /* White text */
+    border-radius: 5px;
   }
-  
-  
   
